@@ -1,17 +1,19 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Habit Rabbit</title>
-</head>
+<?php include("header.php");?>
 
 <body>
-<h1>Habit Rabbit</h1>
-<h2>En app til at holde styr på dine vaner</h2>
-<p>Du er sød</p>
-<footer>
-	<p>Kun til brug af cuties</p>
-</footer>
+<section id="index" data-role="page" style="background-image:url(img/happy.jpg)">
+	<article data-role="content" style="background-image:url(img/happy.jpg)">
+    <h1>Habit Rabbit</h1>
+    <p>Log ind herunder</p>
+    
+    <form>
+            <input type="email" placeholder="Din mail">
+            <input type="password" placeholder="******">
+            <input type="submit" value="Log ind">
+    </form>
+    
+    </article>
+</section>
 
 </body>
 </html>
