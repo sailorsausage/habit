@@ -6,7 +6,7 @@
     <h1>Habit Rabbit</h1>
     <p>Log ind herunder</p>
     
-    <form>
+    <form method="post">
             <input type="email" placeholder="Din mail">
             <input type="password" placeholder="******">
             <input type="submit" value="Log ind">
